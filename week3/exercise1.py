@@ -17,8 +17,6 @@ def loop_ranger(start, stop=None, step=1):
         simona.append(x)
     return(simona)
 
-    pass
-
 
 def lone_ranger(start, stop, step):
     """Duplicate the functionality of range.
@@ -64,9 +62,6 @@ def gene_krupa_range(start, stop, even_step, odd_step):
             x += 1
     else:
         return(simona)
-    pass
-
-    pass
 
 
 def stubborn_asker(low, high):
@@ -85,8 +80,6 @@ def stubborn_asker(low, high):
         else:
             print("{} is not valid".format(input_number))
 
-    pass
-
 
 def not_number_rejector(message):
     """Ask for a number repeatedly until actually given one.
@@ -104,8 +97,6 @@ def not_number_rejector(message):
             return(input_number)
         except Exception as e:
             print("Try again ({})".format(e))
-
-        pass
 
 
 def super_asker(low, high):
@@ -130,7 +121,7 @@ def super_asker(low, high):
                 print("Try again ({})".format(e))
 
     return(input_number)
-    pass
+
 
 if __name__ == "__main__":
     # this section does a quick test on your results and prints them nicely.
